@@ -1,0 +1,115 @@
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .sub-container {
+    height: 80vh;
+    width: 50vw;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-heading {
+    color: #a35200;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .para {
+    color: #334155;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .image {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 20px;
+  }
+  .toss-button {
+    color: #a35200;
+    background-color: #e2a139;
+    padding: 7px 14px 7px 14px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .count-container {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .count {
+    color: #475569;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 767px) {
+  .sub-container {
+    height: 80vh;
+    width: 80vw;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-heading {
+    color: #a35200;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .para {
+    color: #334155;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .image {
+    height: 110px;
+    width: 110px;
+    margin-bottom: 20px;
+  }
+  .toss-button {
+    color: #a35200;
+    background-color: #e2a139;
+    padding: 7px 14px 7px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .count-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .count {
+    color: #475569;
+    font-weight: bold;
+  }
+}
